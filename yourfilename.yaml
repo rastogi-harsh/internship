@@ -1,0 +1,40 @@
+
+---
+
+## 🧠 Key Features
+
+- 🔐 User authentication (Admin & Staff roles)
+- 📦 Add, view, and restock products
+- 💰 Sell products and track quantity
+- 💾 Save and load data using file handling
+- 🧱 Object-oriented structure (OOP principles)
+
+---
+
+## ⚙️ Setup Instructions
+
+  1. Clone or download the repository
+  2. Open the project folder in any Java IDE (e.g., IntelliJ, Eclipse, VS Code)
+  3. Place all `.java` files inside a `src/` folder
+  4. Compile and run `Main.java`
+5. Use default credentials to log in:
+  - **Admin**: `admin` / `admin123`
+  - **Staff**: `staff` / `staff123`
+
+---
+
+## 📤 Future Improvements
+
+- Transaction history (log all sales/restocks)
+- Export reports to CSV or PDF
+- GUI version using JavaFX or Swing
+
+---
+
+## 🧑‍💻 Author
+Harsh Rastogi
+
+---
+
+## 📄 License
+This project is open-source and free to use.
