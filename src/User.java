@@ -10,6 +10,7 @@ public class User {
         this.password = password;
         this.role = role;
     }
+    
 
     // Getters
     public int getId() { return id; }
