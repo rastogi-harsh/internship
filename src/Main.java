@@ -13,6 +13,7 @@ public class Main {
         String username = sc.nextLine();
         System.out.print("🔒 Password: ");
         String password = sc.nextLine();
+        
 
         User currentUser = userManager.login(username, password);
         if (currentUser == null) {
