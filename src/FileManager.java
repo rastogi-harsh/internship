@@ -11,6 +11,7 @@ public class FileManager {
         }
     }
 
+    
     @SuppressWarnings("unchecked")
     public static ArrayList<Product> loadProductsFromFile(String filename) {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename))) {
