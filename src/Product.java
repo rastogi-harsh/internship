@@ -23,6 +23,7 @@ public class Product {
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void setPrice(double price) { this.price = price; }
 
+    
     @Override
     public String toString() {
         return id + " | " + name + " | " + quantity + " | $" + price + " | " + category;
