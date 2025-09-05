@@ -22,6 +22,7 @@ public class Transaction {
     public LocalDate getDate() { return date; }
     public String getType() { return type; }
 
+    
     @Override
     public String toString() {
         return transactionId + " | Product ID: " + productId + " | " + quantity + " | " + date + " | " + type;
