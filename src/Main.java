@@ -14,7 +14,6 @@ public class Main {
         System.out.print("🔒 Password: ");
         String password = sc.nextLine();
         
-
         User currentUser = userManager.login(username, password);
         if (currentUser == null) {
             System.out.println("❌ Invalid credentials. Exiting.");
